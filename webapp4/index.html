@@ -1,0 +1,28 @@
+
+
+<script >
+
+	var JSPlugin = new function() {
+
+this.vibrateAndShowToast = function() {
+    
+    JSBridgePlugin.vibrateAndShowToast();
+
+};
+
+};
+function JSPluginCallbackHandler(data){
+alert(data);
+};
+ </script>
+<html>
+
+
+<body>
+    <h2>Press the button for interaction!!</h2>
+<button type="button" onclick="JSPlugin.vibrateAndShowToast()" >Click Me!</button>
+
+</body>
+</html>
+
+
